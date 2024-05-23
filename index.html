@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>practice</title>
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border1">
+                <a href="https://www.amazon.com/ref=nav_logo"><div class="logo"></div></a>
+            </div>
+            <div class="nav-deliver border1">
+                <p class="Deliver">Deliver to</p>
+                <div class="deliver-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="Pak">Pakistan</p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon" class="search-input">
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="language border1">
+                <img src="american_flag.jfif">
+                <select class="lan-select">
+                    <option>En</option>
+                </select>
+            </div>
+            <div class="nav-signin border1">
+                <p class="signin">Hello, sign in</p>
+                <select class="lists">
+                    <option>Accounts & Lists</option>
+                </select>
+            </div>
+            <div class="nav-signin border1">
+                <a href="https://www.amazon.com/gp/css/order-history?ref_=nav_orders_first" style="text-decorations:none; color:inherit;"><p class="signin">Returns</p>
+                <p class="lists">& Orders</p></a>
+            </div>
+            <div class="nav-cart border1">
+                <a  href="https://www.amazon.com/gp/cart/view.html?ref_=nav_cart" style="text-decorations:none; color:inherit;"><i class="fa-solid fa-cart-shopping"></i></a>
+                <p class="Cart">Cart</p>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="menu border1">
+                <i class="fa-solid fa-bars"><p>All</p></i>
+                
+            </div>
+            <div class="menu-options">
+                <a href="https://www.amazon.com/gp/goldbox?ref_=nav_cs_gb" class="antext border1">Today's Deals</a>
+                <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice" class="antext border1">Customer Service</a>
+                <a href="https://www.amazon.com/registries?ref_=nav_cs_registry&ref_=nav_cs_registry" class="antext border1">Registry</a>
+                <a href="https://www.amazon.com/gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc" class="antext border1">Gift Cards</a>
+                <a href="https://www.amazon.com/b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell" class="antext border1">Sell</a>
+            </div>
+        </div>
+    </header>
+    <div class="hero-section"> 
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+               <a href="https://www.amazon.com/s/?_encoding=UTF8&k=easter&pd_rd_w=kEjk6&content-id=amzn1.sym.a2d0a8c0-c19a-4485-afe0-9b1e52005f52&pf_rd_p=a2d0a8c0-c19a-4485-afe0-9b1e52005f52&pf_rd_r=2CNYRYBS6VRNJ8TYXHTH&pd_rd_wg=0RmBk&pd_rd_r=c0b0e176-cdab-46dc-bdba-3ecf0b54cbf2"><img class="d-block w-100" width="100%" height="400px" src="slider1_image.jpg" alt="First slide"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://www.amazon.com/s/?_encoding=UTF8&k=kitchen&rh=p_36%3A-5000&crid=3T9EH9JRSQV3Q&qid=1686341204&rnid=386465011&sprefix=kitchen%2Caps%2C162&ref=sr_nr_p_36_5&pd_rd_w=uxpoW&content-id=amzn1.sym.6bd9a83c-3722-4f5c-a531-ccf7a3d8e6a6&pf_rd_p=6bd9a83c-3722-4f5c-a531-ccf7a3d8e6a6&pf_rd_r=2CNYRYBS6VRNJ8TYXHTH&pd_rd_wg=0RmBk&pd_rd_r=c0b0e176-cdab-46dc-bdba-3ecf0b54cbf2"><img class="d-block w-100" width="100%" height="400px" src="slider2_image.jpg" alt="Second slide"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://www.amazon.com/s/?_encoding=UTF8&k=beauty&s=exact-aware-popularity-rank&crid=2E2YA31C0ZTXE&qid=1686170937&sprefix=beauty%2Caps%2C180&ref=sr_st_exact-aware-popularity-rank&ds=v1%3AZT6v%2FJBMjurDnqbBIedbwTizYhNIzE2Qivb780ZIMWc&pd_rd_w=fDYDG&content-id=amzn1.sym.0044bffe-bf18-49f9-8d38-b2cc8858b52f&pf_rd_p=0044bffe-bf18-49f9-8d38-b2cc8858b52f&pf_rd_r=2CNYRYBS6VRNJ8TYXHTH&pd_rd_wg=0RmBk&pd_rd_r=c0b0e176-cdab-46dc-bdba-3ecf0b54cbf2"><img class="d-block w-100" width="100%" height="400px" src="slider3_image.jpg" alt="Third slide"></a>
+              </div>
+            </div>
+            <a class="carousel-control-prev"  href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>   
+    </div>
+    <div class="parent-container">
+        <div class="content-boxes">
+            <div class="box">
+                <div class="content">
+                    <h2>Hair Straightener Brush,Straightening Comb</h2>
+                    <a href="https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo1MTY3NDYwMTQ1NDI5MDgyOjE3MTExODUwNjU6c3BfbXRmOjMwMDA4Mzk5MzI4MjkwMjo6MDo6&url=%2FMegaWise-Straightener-Universal-Anti-Scald-Straightening%2Fdp%2FB08P48L2JJ%2Fref%3Dsr_1_14_sspa%3Fcrid%3D19267RALEDHDY%26dib%3DeyJ2IjoiMSJ9.RbFAhXNQWQOlAavsSJGSIDG3IaJ1xaMtC8JMrqPPVKvamLOELsb5RJVTG50T42e7smH_dIwTNunPdzorq9dQOY31SqTHN3JoPUd0_OFxay7Lv70C3rTNT1ADFoIXlMCJW1LJMeSddoVXYPJDwmCi2CLftBNH66EQUS_ECCvBgwIo04Fr3uuDM7T1MaN3JYl8VtomYUqCP6wvKSPKQh68hOR7fc6EmPpacHz1tdiyCUt3D-lOMWwl6nIXw8qgVwXrh3p5CM95ob27kWjOYpPcQbf_ZMLLn71AnqHOPXdtZ8Y.9sVvMyoyvN9iallocsz_wgtXZ4IhcAgC_uDnv6ng6-Y%26dib_tag%3Dse%26keywords%3Dhair%2Bstraightener%26qid%3D1711185065%26sprefix%3Dhair%252Caps%252C453%26sr%3D8-14-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1"><div class="box_image" style="background-image: url(box1_imagee.jpg);"></div></a>
+                    <p class="para">See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <h2>Player's paradise starts here click here</h2>
+                    <a href="https://www.amazon.com/s/?_encoding=UTF8&k=video%20gaming&pd_rd_w=g9Ewd&content-id=amzn1.sym.4b335ede-a344-46a5-af28-95a1242a7034&pf_rd_p=4b335ede-a344-46a5-af28-95a1242a7034&pf_rd_r=G2M0TTRGR4WH3G0FQ3AF&pd_rd_wg=mgldf&pd_rd_r=75b40dad-3175-4502-a38b-9d1b9afe561a&ref_=pd_gw_unk"><div class="box_image" style="background-image: url(box2_image.jpg);"></div></a>
+                    <p class="para">See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <h2>Upgrade your office furniture with us</h2>
+                    <a href="https://www.amazon.com/s?k=office+furniture&crid=37HQIBETFUTEN&sprefix=office+furniture%2Caps%2C343&ref=nb_sb_noss_2"><div class="box_image" style="background-image: url(box3_image.jpg);"></div></a>
+                    <p class="para">See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <h2>Personal Care things under $25</h2>
+                    <a href="https://www.amazon.com/s/?_encoding=UTF8&k=personal%20care&rh=p_36%3A-2500&qid=1698783835&rnid=386662011&ref=sr_nr_p_36_5&pd_rd_w=aIaJn&content-id=amzn1.sym.7d3e5960-aaeb-465f-b3c6-e125eab0c973&pf_rd_p=7d3e5960-aaeb-465f-b3c6-e125eab0c973&pf_rd_r=G2M0TTRGR4WH3G0FQ3AF&pd_rd_wg=mgldf&pd_rd_r=75b40dad-3175-4502-a38b-9d1b9afe561a&ref_=pd_gw_unk"><div class="box_image" style="background-image: url(box4_image.jpg);"></div></a>
+                    <p class="para">See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <h2>Fill your Easter basket with joy</h2>
+                    <a href="https://www.amazon.com/s/?_encoding=UTF8&k=easter&pd_rd_w=zqcng&content-id=amzn1.sym.05648f74-03c2-4db2-860d-48b2281825cb&pf_rd_p=05648f74-03c2-4db2-860d-48b2281825cb&pf_rd_r=G2M0TTRGR4WH3G0FQ3AF&pd_rd_wg=L8m9f&pd_rd_r=557ea8b6-dcc8-4a76-a626-f5e0a0defa23&ref_=pd_gw_unk"><div class="box_image" style="background-image: url(box5_image.jpg);"></div></a>
+                    <p class="para">See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <h2>Popular amazing toys under $25</h2>
+                    <a href="https://www.amazon.com/s?k=toys+under+25+dollars&crid=15WJAO2LXVOXG&sprefix=toys+under25%2Caps%2C347&ref=nb_sb_ss_ts-doa-p_1_12"><div class="box_image" style="background-image: url(box6_image.jpg);"></div></a>
+                    <p class="para">See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <h2>Creating business solutions online</h2>
+                    <a href="https://www.amazon.com/s/?_encoding=UTF8&k=laptops%20and%20accessories&pd_rd_w=fx8Mg&content-id=amzn1.sym.7d5cde1d-b3d4-4ca8-a1cf-489ba1530c6b&pf_rd_p=7d5cde1d-b3d4-4ca8-a1cf-489ba1530c6b&pf_rd_r=6FQ3XYA57KQGYQP1RS2N&pd_rd_wg=PckpW&pd_rd_r=cfe2b949-2cb1-41d7-9c57-47b56ea298e5&ref_=pd_gw_unk"><div class="box_image" style="background-image: url(box7_image.jpg);"></div></a>
+                    <p class="para">See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <h2>Amazon Essentials Men's Apparel and Accessories</h2>
+                    <a href="https://www.amazon.com/s?k=amazon+essentials+men%27s+apparel+and+accessories&crid=VC9WTMQD08QE&sprefix=amazon+essentials+men%27s+apparel%2Caps%2C493&ref=nb_sb_ss_ts-doa-p_2_31"><div class="box_image" style="background-image: url(box8_image.jpg);"></div></a>
+                    <p class="para">See more</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="products-scroll">
+        <h3>Best Sellers in Beauty & Personal Care</h3>
+       <div class="products">
+        <a href="https://www.amazon.com/Neutrogena-Cleansing-Towelettes-Waterproof-Alcohol-Free/dp/B00U2VQZDS/?_encoding=UTF8&pd_rd_w=nw5Oj&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=FGMN3JM7J9H7MGCYSHT4&pd_rd_wg=Hb8NX&pd_rd_r=9180bf05-6152-4580-909a-338656756e39&ref_=pd_gw_crs_zg_bs_3760911"><img src="p2.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/REVLON-One-Step-Dryer-Volumizer-Brush/dp/B096SVJZSW/?_encoding=UTF8&pd_rd_w=nw5Oj&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=FGMN3JM7J9H7MGCYSHT4&pd_rd_wg=Hb8NX&pd_rd_r=9180bf05-6152-4580-909a-338656756e39&ref_=pd_gw_crs_zg_bs_3760911"><img src="p13.jpg" alt="image" style="height:200px;"></a>
+        <a href="https://www.amazon.com/FHI-Heat-UnBrush-Pink/dp/B07Z7PWZ7X/?_encoding=UTF8&pd_rd_w=nw5Oj&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=FGMN3JM7J9H7MGCYSHT4&pd_rd_wg=Hb8NX&pd_rd_r=9180bf05-6152-4580-909a-338656756e39&ref_=pd_gw_crs_zg_bs_3760911"><img src="p14.jpg" alt="image" style="height:200px;"></a>
+        <a href="https://www.amazon.com/l-f-Monochromatic-Multi-Cheeks-Dazzling/dp/B088W7L534/?_encoding=UTF8&pd_rd_w=nw5Oj&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=FGMN3JM7J9H7MGCYSHT4&pd_rd_wg=Hb8NX&pd_rd_r=9180bf05-6152-4580-909a-338656756e39&ref_=pd_gw_crs_zg_bs_3760911"><img src="p15.jpg" alt="image" style="height:200px;"></a>
+        <a href="https://www.amazon.com/CeraVe-Moisturizing-Cream-Daily-Moisturizer/dp/B00TTD9BRC/?_encoding=UTF8&pd_rd_w=nw5Oj&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=FGMN3JM7J9H7MGCYSHT4&pd_rd_wg=Hb8NX&pd_rd_r=9180bf05-6152-4580-909a-338656756e39&ref_=pd_gw_crs_zg_bs_3760911"><img src="p4.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/PanOxyl-Foaming-Peroxide-Strength-Antimicrobial/dp/B081KL2QYJ/?_encoding=UTF8&pd_rd_w=nw5Oj&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=FGMN3JM7J9H7MGCYSHT4&pd_rd_wg=Hb8NX&pd_rd_r=9180bf05-6152-4580-909a-338656756e39&ref_=pd_gw_crs_zg_bs_3760911"><img src="p5.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/Amazon-Basics-Cotton-Swabs-500ct/dp/B09541P9WH/?_encoding=UTF8&pd_rd_w=nw5Oj&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=FGMN3JM7J9H7MGCYSHT4&pd_rd_wg=Hb8NX&pd_rd_r=9180bf05-6152-4580-909a-338656756e39&ref_=pd_gw_crs_zg_bs_3760911"><img src="p6.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/Schick-Multipurpose-Exfoliating-Dermaplaning-Precision/dp/B0787GLBMV/?_encoding=UTF8&pd_rd_w=nw5Oj&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=FGMN3JM7J9H7MGCYSHT4&pd_rd_wg=Hb8NX&pd_rd_r=9180bf05-6152-4580-909a-338656756e39&ref_=pd_gw_crs_zg_bs_3760911"><img src="p7.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/Amazon-Basics-Cotton-Rounds-Count/dp/B09542G9ZN/?_encoding=UTF8&pd_rd_w=nw5Oj&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=FGMN3JM7J9H7MGCYSHT4&pd_rd_wg=Hb8NX&pd_rd_r=9180bf05-6152-4580-909a-338656756e39&ref_=pd_gw_crs_zg_bs_3760911"><img src="p8.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/Dove-Body-Wash-Pump-Moisture/dp/B00MEDOY2G/?_encoding=UTF8&pd_rd_w=nw5Oj&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=FGMN3JM7J9H7MGCYSHT4&pd_rd_wg=Hb8NX&pd_rd_r=9180bf05-6152-4580-909a-338656756e39&ref_=pd_gw_crs_zg_bs_3760911"><img src="p9.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/Paris-Makeup-True-Natural-Glow-Illuminator-Highlighter-Day-Radiant-Glow/dp/B074PTZCNX/?_encoding=UTF8&pd_rd_w=nw5Oj&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=FGMN3JM7J9H7MGCYSHT4&pd_rd_wg=Hb8NX&pd_rd_r=9180bf05-6152-4580-909a-338656756e39&ref_=pd_gw_crs_zg_bs_3760911"><img src="p10.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/eos-Cashmere-Moisture-Lightweight-Non-Greasy/dp/B08KT2Z93D/?_encoding=UTF8&pd_rd_w=nw5Oj&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=FGMN3JM7J9H7MGCYSHT4&pd_rd_wg=Hb8NX&pd_rd_r=9180bf05-6152-4580-909a-338656756e39&ref_=pd_gw_crs_zg_bs_3760911"><img src="p11.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/CeraVe-Hydrating-Facial-Cleanser-Fragrance/dp/B01MSSDEPK/?_encoding=UTF8&pd_rd_w=nw5Oj&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=FGMN3JM7J9H7MGCYSHT4&pd_rd_wg=Hb8NX&pd_rd_r=9180bf05-6152-4580-909a-338656756e39&ref_=pd_gw_crs_zg_bs_3760911"><img src="p12.jpg" alt="image" style="height:200px;"></a>
+       </div>
+    </div><hr>
+    <div class="parent-container">
+        <div class="content-boxes">
+            <div class="box">
+                <div class="content">
+                    <h2>Shop activity trackers and smartwatches</h2>
+                    <a href="https://www.amazon.com/s/?_encoding=UTF8&k=activity%20trackers%20and%20smartwatches&ref=nb_sb_noss&pd_rd_w=tLBvv&content-id=amzn1.sym.33f8f65b-b95c-44af-8b89-e59e69e79828&pf_rd_p=33f8f65b-b95c-44af-8b89-e59e69e79828&pf_rd_r=FGMN3JM7J9H7MGCYSHT4&pd_rd_wg=Hb8NX&pd_rd_r=9180bf05-6152-4580-909a-338656756e39&ref_=pd_gw_unk"><div class="box_image" style="background-image: url(box13_image.jpg);"></div></a>
+                    <p class="para">See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <h2>Kids' and Baby Clothing from Amazon Brands</h2>
+                    <a href="https://www.amazon.com/s?k=kids%27+and+baby+clothing+from+amazon+brands&crid=18JFU5RTFJNNQ&sprefix=kids%27+and+baby+clothing+from+amazon+brands%2Caps%2C328&ref=nb_sb_noss_1"><div class="box_image" style="background-image: url(box10_image.jpg);"></div></a>
+                    <p class="para">See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <h2 style="font-size: 21px; color: #0f1111; margin-top: 19px;margin-left: 5px;">Gaming merchandise</h2>
+                <div class="content" style="display:grid; gap: 30px; grid-template-columns:auto auto; grid-template-rows: auto auto;margin-left: 0px;" >
+                    <a href="https://www.amazon.com/s?k=gaming+merchandise&crid=16W0OAD0P9WPH&sprefix=gaming+mer%2Caps%2C345&ref=nb_sb_ss_ts-doa-p_3_10"><div class="box_image" style="background-image: url(i1.jpg); width: 120px; height: 90px;"></div></a>
+                    <a href="https://www.amazon.com/s?k=gaming+merchandise&crid=16W0OAD0P9WPH&sprefix=gaming+mer%2Caps%2C345&ref=nb_sb_ss_ts-doa-p_3_10"><div class="box_image" style="background-image: url(i2.jpg); width: 120px; height: 90px;"></div></a>
+                    <a href="https://www.amazon.com/s?k=gaming+merchandise&crid=16W0OAD0P9WPH&sprefix=gaming+mer%2Caps%2C345&ref=nb_sb_ss_ts-doa-p_3_10"><div class="box_image" style="background-image: url(i3.jpg); width: 120px; height: 90px;"></div></a>
+                    <a href="https://www.amazon.com/s?k=gaming+merchandise&crid=16W0OAD0P9WPH&sprefix=gaming+mer%2Caps%2C345&ref=nb_sb_ss_ts-doa-p_3_10"><div class="box_image" style="background-image: url(i4.jpg); width: 120px; height: 90px;"></div></a>
+                </div>
+                <p class="para" style="padding-top: 50px;margin-left: 5px;">See more</p>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <h2>Women's Lightweight Water-Resistant Coat</h2>
+                    <a href="https://www.amazon.com/s?k=womens+water+resistant+coat&crid=2KFDZLKU7IRCD&sprefix=womens+water+resistant+coat%2Caps%2C346&ref=nb_sb_noss_1"><div class="box_image" style="background-image: url(box12_image.jpg);"></div></a>
+                    <p class="para">See more</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-container">
+        <h3>Deals under 25$</h3>
+        <div class="scroll-items">
+          <div class="item">
+            <a href="https://www.amazon.com/biblia-cat%C3%B3lica-Latinoam%C3%A9rica-Spanish-Color/dp/8428500037/ref=sr_1_3?crid=T158A3306R0T&dib=eyJ2IjoiMSJ9.k-jvuX9r8vhrJnDgdYKOsykF4hWPO7ZI-537ND1Tf1qgsZBAhupuBvLg-d7Z3cxdjNHoiH7OhNBmMUbzW8HTIehEisfO3L7TEQpvVZwigQxU9atSm31acQ-_U0pOWcBLJgR9mJcdoLATJAUn5XErn558N58gVXBAafqZOID5qDItRzbFHxuhScIENzd49Oz7aegJkyPtHwKObmAXUPniUOQxWUe8F_r9uEGOJRSCErz03YMIwN9zxJN7fQQ7-0R7exCx0JALLUbADnD42fVAYwT59N-LeMLfUgWHRaCEb4o.gCpTTVQROSngqeXwBkFhoxCbJa6A4ArweqjbzW2ddK0&dib_tag=se&keywords=la+biblia&qid=1711188234&sprefix=%2Caps%2C340&sr=8-3"><img src="d1.jpg" alt="Book 1"></a>
+            <div class="info">
+              <div style="width: 55px; height: 25; background-color:#CC0C39; color: #ffffff;">23%off</div>
+              <span style="font-size: 12px; color: #CC0C39;">Limited time deal</span>
+              <div>
+                <span style="font-size: 17px;">$9.99</span>
+                <span style="font-size: 12px;">list price:$12.99</span>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <a href="https://www.amazon.com/James-Novel-Percival-Everett/dp/0385550367/?_encoding=UTF8&_encoding=UTF8&ref_=dlx_gate_sd_dcl_tlt_9fd1e13a_dt_pd_gw_unk&pd_rd_w=AY82F&content-id=amzn1.sym.81a68cec-8afc-4296-99f7-78cf5ddc15b5&pf_rd_p=81a68cec-8afc-4296-99f7-78cf5ddc15b5&pf_rd_r=WDZ0R32BXSD7MVWB65F5&pd_rd_wg=fq3U5&pd_rd_r=7c45917f-689e-4e88-a0c2-5c8dd57edf5d"><img src="d2.jpg" alt="Book 2"></a>
+            <div class="info">
+                <div style="width: 55px; height: 25; background-color:#CC0C39; color: #ffffff;">42%off</div>
+                <span style="font-size: 12px; color: #CC0C39;">Limited time deal</span>
+                <div>
+                  <span style="font-size: 17px;">$17.49</span>
+                  <span style="font-size: 12px;">list price:$29.99</span>
+                </div>
+            </div>
+          </div>
+          <div class="item">
+            <a href="https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo0NzcwODk1MTk1ODQ0MDgyOjE3MTExODgzMzY6c3BfYXRmOjIwMDExNjA2NDM3NTc5ODo6MDo6&url=%2FMerriam-Websters-Everyday-Language-Reference-2016%2Fdp%2F0877793328%2Fref%3Dsr_1_2_sspa%3Fcrid%3D3MBZWQCHSOSIO%26dib%3DeyJ2IjoiMSJ9.cbR-dkPf4btsjieyMpWFS45vzDZVZvzN4tAlmNuRbbao_8iS6qfTmVSoasEiIBTI4IS1PVX-bfHiuI_0po7RUkQiLzidsPqo24MycNq5bQMlN7LVLyp_G5sAaoai5s0OrjyPkwMwF99J5eXTC6bIcnP-XJw_3gjkRNv1oSiEoMWnpzGSe73x8CtTtPz6yw7VRGxRHmhD83ufz6GDZid_nytLHySYTZAjlKl_peEStOo.SQAR6AVydRfPHBlvJdCxQx9J8WnBpWtqYfnRveweoOs%26dib_tag%3Dse%26keywords%3Dthesaurus%2Bdictionary%26qid%3D1711188336%26sprefix%3Dthesaurus%252Caps%252C342%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1"><img src="d3.jpg" alt="Book 2"></a>
+            <div class="info">
+                <div style="width: 55px; height: 25; background-color:#CC0C39; color: #ffffff;">30%off</div>
+                <span style="font-size: 12px; color: #CC0C39;">Limited time deal</span>
+                <div>
+                  <span style="font-size: 17px;">$19.64</span>
+                  <span style="font-size: 12px;">list price:$28</span>
+                </div>
+            </div>
+          </div>
+          <div class="item">
+            <a href="https://www.amazon.com/Preteen-Devotional-Girls-Encouraging-Devotions/dp/0593196929/?_encoding=UTF8&_encoding=UTF8&ref_=dlx_gate_sd_dcl_tlt_4d779875_dt_pd_gw_unk&pd_rd_w=NWAG3&content-id=amzn1.sym.81a68cec-8afc-4296-99f7-78cf5ddc15b5&pf_rd_p=81a68cec-8afc-4296-99f7-78cf5ddc15b5&pf_rd_r=XTB8WYZ8XH31DRZKAC23&pd_rd_wg=8vNEG&pd_rd_r=995953c2-3005-4fe0-b71a-64ac5ff91205"><img src="d4.jpg" alt="Book 2"></a>
+            <div class="info">
+                <div style="width: 55px; height: 25; background-color:#CC0C39; color: #ffffff;">20%off</div>
+                <span style="font-size: 12px; color: #CC0C39;">Limited time deal</span>
+                <div>
+                  <span style="font-size: 17px;">$19.99</span>
+                  <span style="font-size: 12px;">list price:$24.99</span>
+                </div>
+            </div>
+          </div>
+          <div class="item">
+            <a href="https://www.amazon.com/Rand-McNally-2024-Road-Atlas/dp/0528027182/?_encoding=UTF8&_encoding=UTF8&ref_=dlx_gate_sd_dcl_tlt_a0ce8530_dt_pd_gw_unk&pd_rd_w=NWAG3&content-id=amzn1.sym.81a68cec-8afc-4296-99f7-78cf5ddc15b5&pf_rd_p=81a68cec-8afc-4296-99f7-78cf5ddc15b5&pf_rd_r=XTB8WYZ8XH31DRZKAC23&pd_rd_wg=8vNEG&pd_rd_r=995953c2-3005-4fe0-b71a-64ac5ff91205"><img src="d5.jpg" alt="Book 2"></a>
+            <div class="info">
+                <div style="width: 55px; height: 25; background-color:#CC0C39; color: #ffffff;">28%off</div>
+                <span style="font-size: 12px; color: #CC0C39;">Limited time deal</span>
+                <div>
+                  <span style="font-size: 17px;">$17.95</span>
+                  <span style="font-size: 12px;">list price:$24.99</span>
+                </div>
+            </div>
+          </div>
+          <div class="item">
+            <a href="https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo2ODcyODAwOTkyMjY2MDgyOjE3MTExODg1MDU6c3BfYXRmOjIwMDEwNDE3NjU1OTI5ODo6MDo6&url=%2FJackson-Safety-Detachable-Anti-Fog-21002%2Fdp%2FB087DY7JDD%2Fref%3Dsr_1_1_sspa%3Fcrid%3D332DS6KTAS1AP%26dib%3DeyJ2IjoiMSJ9.hRm2MyyA2DlnX0fTtTMmfRLUpNYERbXtqYDh9yY6Qju6xvTYuSIVIVot23VEGnCf3791kER42lsiG-2QI04QxRuKvd5E-Z4JJlsy28MeWhC0zolKxAT1-QBfyWI0KdLvY1rKgn0ii_NtC4chRyrZX1KpwhyWV4p9poVY3gdO3Jx2jy8VOa4zVAq3xEB211br4so4OWeitGt_0vewDjnwM8h2i2FQCxtZQwaLzmzizVigf_mOg1kDucwwxH7DzKsMgV_ta1gS6KXMLXh0e2rCaD_ta4k0_HYI-9l3kLd__kc.c9ojwg7_ICqeTnX6HX0JyWhzLEW_LON4A71jIg9y0mQ%26dib_tag%3Dse%26keywords%3Djackson%2Bmask%26qid%3D1711188505%26sprefix%3Djackson%2Bmask%252Caps%252C332%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1"><img src="d6.jpg" alt="Book 2"></a>
+            <div class="info">
+                <div style="width: 55px; height: 25; background-color:#CC0C39; color: #ffffff;">36%off</div>
+                <span style="font-size: 12px; color: #CC0C39;">Limited time deal</span>
+                <div>
+                  <span style="font-size: 17px;">$19.13</span>
+                  <span style="font-size: 12px;">list price:$30</span>
+                </div>
+            </div>
+          </div>
+          <div class="item">
+            <a href="https://www.amazon.com/Megabook-Fluency-Timothy-V-Rasinski/dp/1338257013/ref=sr_1_1?crid=K7M6UQ6BDA21&dib=eyJ2IjoiMSJ9.Ua1xfqEkSX8GOrp2G4NbCN20uKXMloW-3ra8IFeOpH2ufjmx7jbtrcFojhAU363mU69Hp2MwesJM9Glr9xHcgD28pGscnlu1Rhs2sB7ZwmbXutuvZVU0p2e9TsX8J85QWF1kBi8xzQzIq7Lf8Gke8mDFd_GR61paN2zszQySVvK9l23CBQyRC5TcTBqDZCggCtAkBc_J1Fg-8-L42p11nPwOmKpoHGlFKcchvmxwggA.qg9bH5OTeM5xVy0xIMtx-CbILP1MQ-mEiMWce4cmtIo&dib_tag=se&keywords=the+megabook+of+fluency&qid=1711188557&sprefix=the+mega%2Caps%2C343&sr=8-1"><img src="d7.jpg" alt="Book 2"></a>
+            <div class="info">
+                <div style="width: 55px; height: 25; background-color:#CC0C39; color: #ffffff;">38%off</div>
+                <span style="font-size: 12px; color: #CC0C39;">Limited time deal</span>
+                <div>
+                  <span style="font-size: 17px;">$21.63</span>
+                  <span style="font-size: 12px;">list price:$35</span>
+                </div>
+            </div>
+          </div>
+          <div class="item">
+            <a href="https://www.amazon.com/Devotional-Luxleather-My-Quiet-Time/dp/143213096X/ref=sr_1_1?crid=20ZDWPA9QUOM0&dib=eyJ2IjoiMSJ9.htus-ILUqahGHJCnUCYz_6mtEWbAQgbM-0FSI6tUo9q9xS_CZ3yP6n7PmJZhkbhdw39vonf6QP1HI6eyhQ5Mml9rx6H3h0UcMJkTj0ExXmhF2XiYKx6O3kHUMz0EjxLh_yzN6oIq38VJF-Z4o6bRpn7Cz_vgRou6aVthD_rXSx9Hf9nHXLeuRWxCsI53IPqRpu7msLN3dTe6nzUDvx0gIe7O9sPLPA0Fyj5_yk5PWhM.JfZElzc7UdcnC9OympnGkpCcRyNTM-tgyP32nYE8ZoA&dib_tag=se&keywords=my+quiet+time+book&qid=1711188608&sprefix=my+quit+ti%2Caps%2C429&sr=8-1"><img src="d8.jpg" alt="Book 2"></a>
+            <div class="info">
+                <div style="width: 55px; height: 25; background-color:#CC0C39; color: #ffffff;">20%off</div>
+                <span style="font-size: 12px; color: #CC0C39;">Limited time deal</span>
+                <div>
+                  <span style="font-size: 17px;">$7.99</span>
+                  <span style="font-size: 12px;">list price:$9.99</span>
+                </div>
+            </div>
+          </div>
+          <div class="item">
+            <a href="https://www.amazon.com/s?k=lol+surprise+mix+and+make&crid=ANAZBUAKIK9G&sprefix=lol+surprise+mix+%2Caps%2C365&ref=nb_sb_ss_ts-doa-p_3_17"><img src="d9.jpg" alt="Book 2"></a>
+            <div class="info">
+                <div style="width: 55px; height: 25; background-color:#CC0C39; color: #ffffff;">20%off</div>
+                <span style="font-size: 12px; color: #CC0C39;">Limited time deal</span>
+                <div>
+                  <span style="font-size: 17px;">$14.28</span>
+                  <span style="font-size: 12px;">list price:$17.95</span>
+                </div>
+            </div>
+          </div>
+          <div class="item">
+            <a href="https://www.amazon.com/Catholic-Bible-Leathersoft-Comfort-Print/dp/0785230416/?_encoding=UTF8&_encoding=UTF8&ref_=dlx_gate_sd_dcl_tlt_eabd65c7_dt_pd_gw_unk&pd_rd_w=sPXCU&content-id=amzn1.sym.81a68cec-8afc-4296-99f7-78cf5ddc15b5&pf_rd_p=81a68cec-8afc-4296-99f7-78cf5ddc15b5&pf_rd_r=7XPQ7AWN6RF2A38B19N9&pd_rd_wg=MPxaI&pd_rd_r=6692ee5c-a2c1-4912-a62e-b146a2cebb6b"><img src="d10.jpg" alt="Book 2"></a>
+            <div class="info">
+                <div style="width: 55px; height: 25; background-color:#CC0C39; color: #ffffff;">30%off</div>
+                <span style="font-size: 12px; color: #CC0C39;">Limited time deal</span>
+                <div>
+                  <span style="font-size: 17px;">179.49</span>
+                  <span style="font-size: 12px;">list price:$24.99</span>
+                </div>
+            </div>
+          </div>
+          <div class="item">
+            <a href="https://www.amazon.com/Eve-Female-Drove-Million-Evolution/dp/B0BRBW7WFP/ref=sr_1_1?crid=22PN4JV10E20L&dib=eyJ2IjoiMSJ9.eef_Rxjec6jIbtLGFS6px5qGCWaPMVEIF_P1bL_z8bobF4wOIu735kHCD4EL8kelzZeu4Jfu4x6BTgxm5zuLtvIstdU_FW-b7UW6XN0Z9MXW75njILlvamnjhV2PLkedF9KIUNOBpQ9aa4CpKiXaZaow_ng3leS0bpZDRQiZgF-Sgxb58rYrUKY_t9kbXqLRphC0w1Ttk05OEPGrgGFnac9OqqTRMaNXYrbIbne6b0c.lvON2e7z5RbcF8y_FML4ZqQTUQ8rijIMtrtNqE7Y6o4&dib_tag=se&keywords=eve+cat+bohannon&qid=1711188788&sprefix=eve+cat+%2Caps%2C498&sr=8-1"><img src="d11.jpg" alt="Book 2"></a>
+            <div class="info">
+                <div style="width: 55px; height: 25; background-color:#CC0C39; color: #ffffff;">48%off</div>
+                <span style="font-size: 12px; color: #CC0C39;">Limited time deal</span>
+                <div>
+                  <span style="font-size: 17px;">$24.29</span>
+                  <span style="font-size: 12px;">list price:$46.99</span>
+                </div>
+            </div>
+          </div>
+          <div class="item">
+            <a href="https://www.amazon.com/Dexas-MudBuster-Portable-Cleaner-Medium/dp/B01N64DCPR/ref=sr_1_1?crid=3I70MXG2IDP8G&dib=eyJ2IjoiMSJ9.cbaIFrMep-bGdJ30zllaFweisPL4iIQipmaW_tqkt_E_RS-lX6vgiWZXiyC2Sgg0Ynvbw2MQQW0sY7ggCznMvnhJUI3nzfEdqdT4KzX0otL1ik3KkhWSsfBvsyeP9TGz07PNxvlTITKLHvSAt9o8uQ.q051uVDYaY8hb7w4TrQbsfJTWEVuL1cBQ_MFVtlcQow&dib_tag=se&keywords=mud+buster&qid=1711188823&sprefix=mud+buster%2Caps%2C394&sr=8-1"><img src="d12.jpg" alt="Book 2"></a>
+            <div class="info">
+                <div style="width: 55px; height: 25; background-color:#CC0C39; color: #ffffff;">19%off</div>
+                <span style="font-size: 12px; color: #CC0C39;">Limited time deal</span>
+                <div>
+                  <span style="font-size: 17px;">$22.61</span>
+                  <span style="font-size: 12px;">list price:$27.95</span>
+                </div>
+            </div>
+          </div>
+          <div class="item">
+            <a href="https://www.amazon.com/Head-Shoulders-Treatment-Conditioner-Strengthen/dp/B07WPFYX44/ref=sr_1_4?crid=3VDGFNGVV6JPD&dib=eyJ2IjoiMSJ9.ihabpX30Qk59XsqbStA46SwHQ13mvikpUI0eDucU9QFFGml-LCxuSWTn1jVwja-nKXSBkDrzAKGPL58Z-DjU2oSPNzWIVid1VZlX5zQ4gNmIa74mMJz4aAVE69ew69077MJREala3gQWiA8d5r0CuoJ-GhPLFFkbsyHD5B7Uczx9Zz_vfxdZPJqmUtWcD3jDCVwX2y5pONqK9ODszj5H1X1_VS95nOg4zFm3_eh2r2WSHcxuh_dhoKqKmfm1cEIQ86LE4DR0kucmtCFQ1I6z0Z7K_pu4RT8syiBcOlB5ra8.MLdFPS5fSXHk054K-CTjzJxn-WtuWwCyz40E5JXJoTE&dib_tag=se&keywords=head+and+shoulders+shampoo+and+conditioner&qid=1711188901&sprefix=head+and+shoulders+sh%2Caps%2C704&sr=8-4"><img src="d13.jpg" alt="Book 2"></a>
+            <div class="info">
+                <div style="width: 55px; height: 25; background-color:#CC0C39; color: #ffffff;">30%off</div>
+                <span style="font-size: 12px; color: #CC0C39;">Limited time deal</span>
+                <div>
+                  <span style="font-size: 17px;">$13.99</span>
+                  <span style="font-size: 12px;">list price:$19.99</span>
+                </div>
+            </div>
+          </div>
+          <div class="item">
+            <a href=""><img src="d14.jpg" alt="Book 2"></a>
+            <div class="info">
+                <div style="width: 55px; height: 25; background-color:#CC0C39; color: #ffffff;">42%off</div>
+                <span style="font-size: 12px; color: #CC0C39;">Limited time deal</span>
+                <div>
+                  <span style="font-size: 17px;">$17.49</span>
+                  <span style="font-size: 12px;">list price:$29.99</span>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div> <hr>
+    <div class="products-scroll">
+        <h3>Most wished for in Movies & TV</h3>
+       <div class="products">
+        <a href="https://www.amazon.com/Aliens-4K-UHD-Sigourney-Weaver/dp/B0CSZC9GLJ/?_encoding=UTF8&pd_rd_w=cG7X9&content-id=amzn1.sym.41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_p=41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_r=236Q64ZZ1X7CKQX4DCT6&pd_rd_wg=idLrB&pd_rd_r=992aa4e8-c47e-41af-902b-a7d3e8b0f9ad&ref_=pd_gw_crs_zg_bs_2625373011"><img src="m1.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/True-Lies-UHD-Arnold-Schwarzenegger/dp/B0CSZD4N61/?_encoding=UTF8&pd_rd_w=cG7X9&content-id=amzn1.sym.41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_p=41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_r=236Q64ZZ1X7CKQX4DCT6&pd_rd_wg=idLrB&pd_rd_r=992aa4e8-c47e-41af-902b-a7d3e8b0f9ad&ref_=pd_gw_crs_zg_bs_2625373011"><img src="m2.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/Crow-4K-UHD-Michael-Wincot/dp/B0CVS23J48/?_encoding=UTF8&pd_rd_w=cG7X9&content-id=amzn1.sym.41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_p=41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_r=236Q64ZZ1X7CKQX4DCT6&pd_rd_wg=idLrB&pd_rd_r=992aa4e8-c47e-41af-902b-a7d3e8b0f9ad&ref_=pd_gw_crs_zg_bs_2625373011"><img src="m4.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/Oppenheimer-Ultra-Blu-ray-Digital-UHD/dp/B0CL7JD41F/?_encoding=UTF8&pd_rd_w=cG7X9&content-id=amzn1.sym.41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_p=41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_r=236Q64ZZ1X7CKQX4DCT6&pd_rd_wg=idLrB&pd_rd_r=992aa4e8-c47e-41af-902b-a7d3e8b0f9ad&ref_=pd_gw_crs_zg_bs_2625373011"><img src="m5.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/Dune-Ultra-Blu-ray-Digital-UHD/dp/B09MDHXGST/?_encoding=UTF8&pd_rd_w=cG7X9&content-id=amzn1.sym.41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_p=41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_r=236Q64ZZ1X7CKQX4DCT6&pd_rd_wg=idLrB&pd_rd_r=992aa4e8-c47e-41af-902b-a7d3e8b0f9ad&ref_=pd_gw_crs_zg_bs_2625373011"><img src="m6.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/Dune-Part-Two-Ultra-Digital/dp/B0CW3DTWNG/?_encoding=UTF8&pd_rd_w=cG7X9&content-id=amzn1.sym.41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_p=41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_r=236Q64ZZ1X7CKQX4DCT6&pd_rd_wg=idLrB&pd_rd_r=992aa4e8-c47e-41af-902b-a7d3e8b0f9ad&ref_=pd_gw_crs_zg_bs_2625373011"><img src="m7.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/Moon-Knight-Season-UHD-Steelbook/dp/B0CXY52GWH/?_encoding=UTF8&pd_rd_w=cG7X9&content-id=amzn1.sym.41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_p=41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_r=236Q64ZZ1X7CKQX4DCT6&pd_rd_wg=idLrB&pd_rd_r=992aa4e8-c47e-41af-902b-a7d3e8b0f9ad&ref_=pd_gw_crs_zg_bs_2625373011"><img src="m8.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/Berserk-Complete-1997-TV-Blu-ray/dp/B0CSF4TTNS/?_encoding=UTF8&pd_rd_w=cG7X9&content-id=amzn1.sym.41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_p=41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_r=236Q64ZZ1X7CKQX4DCT6&pd_rd_wg=idLrB&pd_rd_r=992aa4e8-c47e-41af-902b-a7d3e8b0f9ad&ref_=pd_gw_crs_zg_bs_2625373011"><img src="m9.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/Rango-4K-UHD-Blu-ray-Steelbook/dp/B0CX537DN5/?_encoding=UTF8&pd_rd_w=cG7X9&content-id=amzn1.sym.41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_p=41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_r=236Q64ZZ1X7CKQX4DCT6&pd_rd_wg=idLrB&pd_rd_r=992aa4e8-c47e-41af-902b-a7d3e8b0f9ad&ref_=pd_gw_crs_zg_bs_2625373011"><img src="m10.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/Iron-Claw-Bluray-DVD-Digital/dp/B0CS6YYG6T/?_encoding=UTF8&pd_rd_w=cG7X9&content-id=amzn1.sym.41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_p=41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_r=236Q64ZZ1X7CKQX4DCT6&pd_rd_wg=idLrB&pd_rd_r=992aa4e8-c47e-41af-902b-a7d3e8b0f9ad&ref_=pd_gw_crs_zg_bs_2625373011"><img src="m11.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/Falcon-Winter-Soldier-Season-Steelbook/dp/B0CXY3XXVK/?_encoding=UTF8&pd_rd_w=cG7X9&content-id=amzn1.sym.41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_p=41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_r=236Q64ZZ1X7CKQX4DCT6&pd_rd_wg=idLrB&pd_rd_r=992aa4e8-c47e-41af-902b-a7d3e8b0f9ad&ref_=pd_gw_crs_zg_bs_2625373011"><img src="m12.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/Killer-Klowns-Outer-Space-Steelbook/dp/B0CVDP3PXM/?_encoding=UTF8&pd_rd_w=cG7X9&content-id=amzn1.sym.41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_p=41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_r=236Q64ZZ1X7CKQX4DCT6&pd_rd_wg=idLrB&pd_rd_r=992aa4e8-c47e-41af-902b-a7d3e8b0f9ad&ref_=pd_gw_crs_zg_bs_2625373011"><img src="m13.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/Aquaman-Lost-Kingdom-Blu-ray-Digital/dp/B0CQPHVKYK/?_encoding=UTF8&pd_rd_w=cG7X9&content-id=amzn1.sym.41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_p=41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_r=236Q64ZZ1X7CKQX4DCT6&pd_rd_wg=idLrB&pd_rd_r=992aa4e8-c47e-41af-902b-a7d3e8b0f9ad&ref_=pd_gw_crs_zg_bs_2625373011"><img src="m14.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/Oceans-Trilogy-Ultra-Digital-UHD/dp/B0CXBPRR7B/?_encoding=UTF8&pd_rd_w=cG7X9&content-id=amzn1.sym.41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_p=41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_r=236Q64ZZ1X7CKQX4DCT6&pd_rd_wg=idLrB&pd_rd_r=992aa4e8-c47e-41af-902b-a7d3e8b0f9ad&ref_=pd_gw_crs_zg_bs_2625373011"><img src="m15.jpg" alt="image"></a>
+       </div>
+    </div><hr>
+    <div class="products-scroll">
+        <h3>Best Sellers in Beauty & Personal Care</h3>
+       <div class="products">
+        <a href="https://www.amazon.com/Crest-White-Luminous-Whitening-Toothpaste/dp/B09F8FZ18G/?_encoding=UTF8&pd_rd_w=JvNoQ&content-id=amzn1.sym.3f4ca281-e55c-46d1-9425-fb252d20366f&pf_rd_p=3f4ca281-e55c-46d1-9425-fb252d20366f&pf_rd_r=236Q64ZZ1X7CKQX4DCT6&pd_rd_wg=idLrB&pd_rd_r=992aa4e8-c47e-41af-902b-a7d3e8b0f9ad&ref_=pd_gw_exports_top_sellers_unrec"><img src="a1.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/Neutrogena-Ultra-Dry-Touch-Sunscreen-Spectrum/dp/B005IHT94S/?_encoding=UTF8&pd_rd_w=JvNoQ&content-id=amzn1.sym.3f4ca281-e55c-46d1-9425-fb252d20366f&pf_rd_p=3f4ca281-e55c-46d1-9425-fb252d20366f&pf_rd_r=236Q64ZZ1X7CKQX4DCT6&pd_rd_wg=idLrB&pd_rd_r=992aa4e8-c47e-41af-902b-a7d3e8b0f9ad&ref_=pd_gw_exports_top_sellers_unrec"><img src="a2.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/Neutrogena-Oil-Free-Sunscreen-Sweatproof-Waterproof/dp/B001P92FMG/?_encoding=UTF8&pd_rd_w=JvNoQ&content-id=amzn1.sym.3f4ca281-e55c-46d1-9425-fb252d20366f&pf_rd_p=3f4ca281-e55c-46d1-9425-fb252d20366f&pf_rd_r=236Q64ZZ1X7CKQX4DCT6&pd_rd_wg=idLrB&pd_rd_r=992aa4e8-c47e-41af-902b-a7d3e8b0f9ad&ref_=pd_gw_exports_top_sellers_unrec"><img src="a3.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/CeraVe-Foaming-Facial-Cleanser-Fragrance/dp/B07RJ18VMF/?_encoding=UTF8&pd_rd_w=JvNoQ&content-id=amzn1.sym.3f4ca281-e55c-46d1-9425-fb252d20366f&pf_rd_p=3f4ca281-e55c-46d1-9425-fb252d20366f&pf_rd_r=236Q64ZZ1X7CKQX4DCT6&pd_rd_wg=idLrB&pd_rd_r=992aa4e8-c47e-41af-902b-a7d3e8b0f9ad&ref_=pd_gw_exports_top_sellers_unrec"><img src="a4.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/CeraVe-Vitamin-Hyaluronic-Brightening-Fragrance/dp/B07PNCCLD2/?_encoding=UTF8&pd_rd_w=JvNoQ&content-id=amzn1.sym.3f4ca281-e55c-46d1-9425-fb252d20366f&pf_rd_p=3f4ca281-e55c-46d1-9425-fb252d20366f&pf_rd_r=236Q64ZZ1X7CKQX4DCT6&pd_rd_wg=idLrB&pd_rd_r=992aa4e8-c47e-41af-902b-a7d3e8b0f9ad&ref_=pd_gw_exports_top_sellers_unrec"><img src="a5.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/PanOxyl-Benzoyl-Peroxide-Control-Antimicrobial/dp/B081KLNHSG/?_encoding=UTF8&pd_rd_w=JvNoQ&content-id=amzn1.sym.3f4ca281-e55c-46d1-9425-fb252d20366f&pf_rd_p=3f4ca281-e55c-46d1-9425-fb252d20366f&pf_rd_r=236Q64ZZ1X7CKQX4DCT6&pd_rd_wg=idLrB&pd_rd_r=992aa4e8-c47e-41af-902b-a7d3e8b0f9ad&ref_=pd_gw_exports_top_sellers_unrec"><img src="a6.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/COSRX-Hyaluronic-Intensive-Cream-100ml/dp/B072FH17NJ/?_encoding=UTF8&pd_rd_w=JvNoQ&content-id=amzn1.sym.3f4ca281-e55c-46d1-9425-fb252d20366f&pf_rd_p=3f4ca281-e55c-46d1-9425-fb252d20366f&pf_rd_r=236Q64ZZ1X7CKQX4DCT6&pd_rd_wg=idLrB&pd_rd_r=992aa4e8-c47e-41af-902b-a7d3e8b0f9ad&ref_=pd_gw_exports_top_sellers_unrec"><img src="a7.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/l-f-Gel-Based-Hydrating-Smoothing-Moisturizes/dp/B09XMYFTB7/?_encoding=UTF8&pd_rd_w=JvNoQ&content-id=amzn1.sym.3f4ca281-e55c-46d1-9425-fb252d20366f&pf_rd_p=3f4ca281-e55c-46d1-9425-fb252d20366f&pf_rd_r=236Q64ZZ1X7CKQX4DCT6&pd_rd_wg=idLrB&pd_rd_r=992aa4e8-c47e-41af-902b-a7d3e8b0f9ad&ref_=pd_gw_exports_top_sellers_unrec"><img src="a8.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/CeraVe-Facial-Moisturizing-Lotion-Lightweight/dp/B00365DABC/?_encoding=UTF8&pd_rd_w=JvNoQ&content-id=amzn1.sym.3f4ca281-e55c-46d1-9425-fb252d20366f&pf_rd_p=3f4ca281-e55c-46d1-9425-fb252d20366f&pf_rd_r=236Q64ZZ1X7CKQX4DCT6&pd_rd_wg=idLrB&pd_rd_r=992aa4e8-c47e-41af-902b-a7d3e8b0f9ad&ref_=pd_gw_exports_top_sellers_unrec"><img src="a9.jpg" alt="image"></a>
+        <a href="https://www.amazon.com/OGX-Moisturizing-Strengthening-Paraben-Free-Sulfated-Surfactants/dp/B0048EZNR4/?_encoding=UTF8&pd_rd_w=JvNoQ&content-id=amzn1.sym.3f4ca281-e55c-46d1-9425-fb252d20366f&pf_rd_p=3f4ca281-e55c-46d1-9425-fb252d20366f&pf_rd_r=236Q64ZZ1X7CKQX4DCT6&pd_rd_wg=idLrB&pd_rd_r=992aa4e8-c47e-41af-902b-a7d3e8b0f9ad&ref_=pd_gw_exports_top_sellers_unrec"><img src="a10.jpg" alt="image"></a>
+       </div>
+    </div><hr>
+    <div class="above-footer">
+        <div class="inner-div">See personalized recommendations</div>
+        <div class="sign-in">Sign in</div>
+        <div class="inner-div2">New Customer?<a href="https://www.amazon.com/ap/register?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fref%3Drhf_sign_in&openid.assoc_handle=usflex"> Start here.</a></div>
+    </div><hr>
+        <footer>
+            <div class="footer-panel1">Back to top</div>
+            <div class="footer-panel2">
+                <ul>
+                    <p>Get to Know Us</p>
+                    <a href="https://www.amazon.jobs/">Careers</a>
+                    <a href="https://blog.aboutamazon.com/?utm_source=gateway&utm_medium=footer">Blog</a>
+                    <a href="https://www.aboutamazon.com/?utm_source=gateway&utm_medium=footer">About Amazon</a>
+                    <a href="https://www.amazon.com/ir">Investor Relations</a>
+                    <a href="https://www.amazon.com/gp/browse.html?node=2102313011&ref_=footer_devices">Amazon devices</a>
+                    <a href="https://www.amazon.science/">Amazon Science</a>
+                </ul>
+                <ul>
+                    <p>Make Money with Us</p>
+                    <a href="https://services.amazon.com/sell.html?ld=AZFSSOA&ref_=footer_soa">Make Money with Us</a>
+                    <a href="https://services.amazon.com/amazon-business.html?ld=usb2bunifooter&ref_=footer_b2b">Sell on Amazon Business</a>
+                    <a href="https://developer.amazon.com/">Sell apps on Amazon</a>
+                    <a href="https://affiliate-program.amazon.com/">Become an Affiliate</a>
+                    <a href="https://advertising.amazon.com/?ref=ext_amzn_ftr">Advertise Your Products</a>
+                    <a href="https://www.amazon.com/gp/seller-account/mm-summary-page.html?ld=AZFooterSelfPublish&topic=200260520&ref_=footer_publishing">Self-Publish with Us</a>
+                    <a href="https://go.thehub-amazon.com/amazon-hub-locker">Host an Amazon Hub</a>
+                    <a href="https://www.amazon.com/b/?node=18190131011&ld=AZUSSOA-seemore&ref_=footer_seemore">See More Make Money with Us</a>
+                </ul>
+                <ul>
+                    <p>Amazon Payment Products</p>
+                    <a href="https://www.amazon.com/dp/B07984JN3L?plattr=ACOMFO&ie=UTF-8">Amazon Business Card</a>
+                    <a href="https://www.amazon.com/gp/browse.html?node=16218619011&ref_=footer_swp">Shop with Points</a>
+                    <a href="https://www.amazon.com/gp/browse.html?node=10232440011&ref_=footer_reload_us">Reload Your Balance</a>
+                    <a href="https://www.amazon.com/gp/browse.html?node=388305011&ref_=footer_tfx">Amazon Currency Converter</a>
+                </ul>
+                <ul>
+                    <p>Let Us Help You</p>
+                    <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GDFU3JS5AL6SYHRD&ref_=footer_covid">Amazon and COVID-19</a>
+                    <a href="https://www.amazon.com/gp/css/homepage.html?ref_=footer_ya">Your Account</a>
+                    <a href="https://www.amazon.com/gp/css/order-history?ref_=footer_yo">Your Orders</a>
+                    <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=468520&ref_=footer_shiprates">Shipping Rates & Policies</a>
+                    <a href="https://www.amazon.com/gp/css/returns/homepage.html?ref_=footer_hy_f_4">Returns & Replacements</a>
+                    <a href="https://www.amazon.com/gp/digital/fiona/manage?ref_=footer_myk">Manage Your Content and Devices</a>
+                    <a href="https://www.amazon.com/gp/BIT/ref=footer_bit_v2_us_A0029?bitCampaignCode=A0029">Amazon Assistant</a>
+                    <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he">Help</a>
+                </ul>
+            </div>
+            <div class="footer-panel3">
+                <a href="https://www.amazon.com/?ref_=footer_logo"><div class="footer-image"></div></a>
+            </div>
+            <div class="footer-panel4">
+                <div class="pages">
+                    <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=508088&ref_=footer_cou" >Conditions of Use</a>
+                    <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=468496&ref_=footer_privacy" > Privacy Notice</a>
+                    <a href="https://www.amazon.com/privacyprefs?ref_=footer_iba" > Your Ads Privacy Choices</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shield-fill-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 0c-.69 0-1.843.265-2.928.56-1.11.3-2.229.655-2.887.87a1.54 1.54 0 0 0-1.044 1.262c-.596 4.477.787 7.795 2.465 9.99a11.8 11.8 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7 7 0 0 0 1.048-.625 11.8 11.8 0 0 0 2.517-2.453c1.678-2.195 3.061-5.513 2.465-9.99a1.54 1.54 0 0 0-1.044-1.263 63 63 0 0 0-2.887-.87C9.843.266 8.69 0 8 0m2.146 5.146a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793z"/>
+                      </svg>
+                </div>
+                <p>&#169; 1996-2024, Amazon.com, Inc. or its affiliates</p>
+            </div>
+            
+        </footer>
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
